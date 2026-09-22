@@ -1,0 +1,14 @@
+# copy to config.yaml and fill in
+poll_interval_seconds: 600
+webhook_url: ""  # e.g. Slack/Discord/ntfy webhook; empty = console only
+posts:
+  - Chennai
+  - Mumbai
+  - Delhi
+  - Hyderabad
+  - Kolkata
+checker_config:
+  dates_key: dates
+  available_key: slots
+  # per-post override:
+  # Chennai: {url: "https://example.com/api/slots?post=chennai"}
